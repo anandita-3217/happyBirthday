@@ -5,12 +5,7 @@
 
 1. **Clone the repo**
 
-2. **Install dependencies**
-```bash
-   npm install
-```
-
-3. **Start the app**
+2. **Start the app**
 ```bash
    npm start
 ```
