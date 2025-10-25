@@ -7,5 +7,6 @@
 
 2. **Start the app**
 ```bash
+   cd hbd
    npm start
 ```

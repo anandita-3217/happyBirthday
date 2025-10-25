@@ -40,20 +40,42 @@
   color: white;
   border: none;
   padding: 15px 40px;
-  font-size: 1.2em;
+  font-size: .75em;
   border-radius: 50px;
   cursor: pointer;
   margin: 20px;
   font-weight: bold;
   transition: ease-in-out 0.3s;
 }
-.btn:hover{
-  background: #ff82bd;
+.btn-confetti{
+  background: #0e8fcf;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  font-size: .75em;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
 }
+.btn-spin{
+  background: #ffae01;
+  color: white;
+  border: none;
+  padding: 10px 35px;
+  font-size: .75em;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
+}
+
 
 .wishes {
   margin-top: 20px;
-  color: #5cd3ff;
+  color: #0e8fcf;
   animation: fadeIn 0.5s;
 }
 

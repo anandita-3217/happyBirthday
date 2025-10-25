@@ -47,7 +47,7 @@
 // }
 import React, { useEffect, useState } from 'react';
 
-export default function Confetti() {
+export default function Confetti({ originX = '50%', originY = '50%' }) {
   const [pieces, setPieces] = useState([]);
 
   useEffect(() => {
@@ -91,8 +91,8 @@ export default function Confetti() {
             key={piece.id}
             style={{
               position: 'fixed',
-              left: '50%',
-              top: '50%',
+              left: originX,
+              top: originY,
               width: `${piece.size}px`,
               height: `${piece.size}px`,
               backgroundColor: piece.color,
@@ -100,7 +100,8 @@ export default function Confetti() {
               '--tx': `${tx}px`,
               '--ty': `${ty}px`,
               animation: `burst ${piece.duration}s ease-out forwards`,
-              zIndex: 0
+              zIndex: 1,
+              pointerEvents: 'none'
             }}
           />
         );
