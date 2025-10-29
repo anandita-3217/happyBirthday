@@ -23,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ffae00;
+  font-weight: bolder;
 }
 .App-container {
   background-color: #282c34;
@@ -33,6 +34,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ffae00;
+  font-weight: bolder;
 }
 
 .btn{
